@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F67F34FA-BEA9-41CC-8E00-CD350371711A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.MVC", "Onion.MVC\Onion.MVC.csproj", "{783D3F52-F4C8-4CF2-A22F-D66AEF82FCDD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{783D3F52-F4C8-4CF2-A22F-D66AEF82FCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783D3F52-F4C8-4CF2-A22F-D66AEF82FCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783D3F52-F4C8-4CF2-A22F-D66AEF82FCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783D3F52-F4C8-4CF2-A22F-D66AEF82FCDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{783D3F52-F4C8-4CF2-A22F-D66AEF82FCDD} = {679E9486-491B-4F94-8897-D2290B721B06}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {307E6D28-1E0A-419A-880B-8602D7F434F1}
