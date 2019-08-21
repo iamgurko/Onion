@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.MVC", "Onion.MVC\Onio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Domain", "Onion.Domain\Onion.Domain.csproj", "{72BF2C02-3C9F-4F98-BC5A-29A1A7A4361C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Infrastructure.Data", "Onion.Infrastructure.Data\Onion.Infrastructure.Data.csproj", "{B78A70C4-EA7C-491F-8F6E-8748EEE7856D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{72BF2C02-3C9F-4F98-BC5A-29A1A7A4361C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72BF2C02-3C9F-4F98-BC5A-29A1A7A4361C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72BF2C02-3C9F-4F98-BC5A-29A1A7A4361C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78A70C4-EA7C-491F-8F6E-8748EEE7856D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78A70C4-EA7C-491F-8F6E-8748EEE7856D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78A70C4-EA7C-491F-8F6E-8748EEE7856D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78A70C4-EA7C-491F-8F6E-8748EEE7856D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{783D3F52-F4C8-4CF2-A22F-D66AEF82FCDD} = {679E9486-491B-4F94-8897-D2290B721B06}
 		{72BF2C02-3C9F-4F98-BC5A-29A1A7A4361C} = {3CB56E30-FDA3-4B16-81FF-B85C4B77B45B}
+		{B78A70C4-EA7C-491F-8F6E-8748EEE7856D} = {24C46920-F1FA-4799-B94F-3B30E339B435}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {307E6D28-1E0A-419A-880B-8602D7F434F1}
